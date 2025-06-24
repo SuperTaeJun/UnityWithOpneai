@@ -4,8 +4,6 @@ using OpenAI;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Threading.Tasks;
-
 using OpenAI.Images;
 using Utilities.Extensions;
 
@@ -16,10 +14,13 @@ public class ChatGptTest : MonoBehaviour
     public RawImage Image;
 
     public Text StroyDescriptionTextUI;
-    public Text ResultTextUI;       // 결과 텍스트
+    public Transform ChatContentParent;       // Content 오브젝트
+    public GameObject ChatBubblePrefab;       // 채팅 메시지 프리팹
+    public ScrollRect scrollRect;
+
     public InputField PromptField;  // 입력 필드
-    public Button SendButton;       // 보내기 버튼
-    public Button ResultButton;
+    public UnityEngine.UI.Button SendButton;       // 보내기 버튼
+    public UnityEngine.UI.Button ResultButton;
     public Text EmotionText;
     public Text InnerthoughtsText;
 
@@ -85,7 +86,6 @@ public class ChatGptTest : MonoBehaviour
         if (StroyDescriptionTextUI.gameObject.activeSelf == true)
         {
             StroyDescriptionTextUI.SetActive(false);
-            ResultTextUI.SetActive(true);
         }
 
 
@@ -108,9 +108,12 @@ public class ChatGptTest : MonoBehaviour
         var choice = response.FirstChoice;
 
         // 6. 답변 출력
-        ResultTextUI.text += $"\n<color=grey>[나]</color> {prompt}";
-        ResultTextUI.text += $"\n<color=#00aaff>[주장]</color> {npcResponse.ReplyMessage} \n";
+        //ResultTextUI.text += $"\n<color=grey>[나]</color> {prompt}";
+        //ResultTextUI.text += $"\n<color=#00aaff>[주장]</color> {npcResponse.ReplyMessage} \n";
+        AddChatBubble("나", prompt, Color.gray);
+        AddChatBubble("주장", npcResponse.ReplyMessage, new Color(0f, 0.67f, 1f)); // 하늘색
 
+        ScrollToBottom();
         // 6-1 감정 추가
         InnerthoughtsText.text = npcResponse.Innerthoughts;
         // 6-2 속마음 추가
@@ -142,22 +145,41 @@ public class ChatGptTest : MonoBehaviour
 
     private async void ShowMatchResult()
     {
-        // 버튼 클릭 시, GPT에게 경기 결과 요청
-        string resultPrompt = @"
-이제 결승전이 끝났다고 가정하고, 주장의 감정과 속마음을 바탕으로 'MatchResult' 항목에 경기 결과를 1~2문장으로 요약해 JSON 형식으로 출력해줘.
-응답은 반드시 다음 형식으로:
+        string currentEmotion = EmotionText.text;
+        string currentInnerThink = InnerthoughtsText.text;
+        string resultPrompt = $@"
+주장은 결승전 전날 밤 이런 감정을 느끼고 있었다: '{currentEmotion}'  
+그리고 속으로 이렇게 생각했다: '{currentInnerThink}'
 
-{
-  ""MatchResult"": ""여기에 경기 결과 요약을 작성""
-}
+이 감정과 속마음을 바탕으로, 결승전이 끝난 후 어떤 결과가 나왔는지를 1~2문장으로 요약해줘.
+
+※ 감정 상태가 긍정적이면 결과도 자신감 있고 희망적으로,  
+※ 감정 상태가 불안하거나 부정적이면 경기 결과도 어려움이 반영되도록 자연스럽게 서술해.
+
+'주장', '우리 팀', '결승전' 등의 표현을 포함한 현실적인 스포츠 해설 스타일로 써줘.
 ";
-        messages.Add(new Message(Role.User, resultPrompt));
 
-        var (resultResponse, _) = await api.ChatEndpoint.GetCompletionAsync<NpcResponse>(new ChatRequest(messages, Model.GPT4o));
+        List<Message> resultMessage = new List<Message>();
+        resultMessage.Add(new Message(Role.User, resultPrompt));
 
-        // 결과 출력
-        ResultTextUI.text = $"\n\n<color=#ffaa00><b>[경기 결과]</b></color> {resultResponse.MatchResult}";
+        var chatRequest = new ChatRequest(resultMessage, Model.GPT4o);
 
-        Debug.Log(resultResponse.MatchResult);
+        var response = await api.ChatEndpoint.GetCompletionAsync(chatRequest);
+
+        AddChatBubble("경기 결과", response.FirstChoice.Message, new Color(1f, 0.0f, 0f)); // 하늘색
+
+    }
+
+    private void AddChatBubble(string speaker, string message, Color nameColor)
+    {
+        var bubble = Instantiate(ChatBubblePrefab, ChatContentParent);
+        var text = bubble.GetComponent<Text>();
+        text.text = $"<color=#{ColorUtility.ToHtmlStringRGB(nameColor)}>[{speaker}]</color> {message}";
+
+    }
+    private void ScrollToBottom()
+    {
+        Canvas.ForceUpdateCanvases(); // UI 업데이트 강제 반영
+        scrollRect.verticalNormalizedPosition = 0f;
     }
 }
