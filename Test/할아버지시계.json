@@ -1,0 +1,1020 @@
+{
+    "bpm": 120.0,
+    "notes": [
+        {
+            "noteType": 1,
+            "targetTime": 3.5,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 4.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 4.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 4.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 4.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 4.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 5.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 5.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 5.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 5.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 5.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 6.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 6.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 6.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 6.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 6.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 7.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 7.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 7.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 7.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 7.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 8.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 8.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 8.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 8.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 1,
+            "targetTime": 9.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 0,
+            "targetTime": 9.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 9.5,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 9.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 9.666666984558106,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 9.833333015441895,
+            "duration": 0.16145899891853333
+        },
+        {
+            "noteType": 1,
+            "targetTime": 10.0,
+            "duration": 1.375
+        },
+        {
+            "noteType": 0,
+            "targetTime": 10.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 10.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 10.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 10.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 1,
+            "targetTime": 11.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 1,
+            "targetTime": 11.5,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 12.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 12.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 12.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 12.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 12.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 13.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 13.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 13.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 13.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 13.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 14.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 14.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 14.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 14.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 14.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 15.0,
+            "duration": 0.6666669845581055
+        },
+        {
+            "noteType": 0,
+            "targetTime": 15.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 15.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 15.75,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 15.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 16.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 0,
+            "targetTime": 16.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 16.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.0,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.0625,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.125,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.1875,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.25,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.3125,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.375,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.4375,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.5,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.5625,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.625,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.6875,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.75,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.8125,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.875,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 17.9375,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 18.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 18.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 18.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 18.5,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 18.5,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 18.5,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 19.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 19.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 19.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 0,
+            "targetTime": 19.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 19.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 20.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 20.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 20.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 20.666667938232423,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 20.833332061767579,
+            "duration": 0.16145899891853333
+        },
+        {
+            "noteType": 0,
+            "targetTime": 21.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 21.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 21.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 21.666667938232423,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 21.833332061767579,
+            "duration": 0.16145899891853333
+        },
+        {
+            "noteType": 1,
+            "targetTime": 22.0,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 22.0,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 22.0,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.375,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.375,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.375,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 22.5,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 22.5,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 22.5,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 22.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 23.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 23.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 23.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 23.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 1,
+            "targetTime": 23.5,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 0,
+            "targetTime": 23.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 24.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 24.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 24.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 24.666667938232423,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 24.833332061767579,
+            "duration": 0.16145899891853333
+        },
+        {
+            "noteType": 0,
+            "targetTime": 25.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 25.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 25.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 25.666667938232423,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 25.833332061767579,
+            "duration": 0.16145899891853333
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 26.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 1,
+            "targetTime": 27.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 27.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 27.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 27.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 1,
+            "targetTime": 27.5,
+            "duration": 0.36979201436042788
+        },
+        {
+            "noteType": 0,
+            "targetTime": 27.875,
+            "duration": 0.11979199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 28.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 0,
+            "targetTime": 28.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 28.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 1,
+            "targetTime": 29.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 0,
+            "targetTime": 29.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 29.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 1,
+            "targetTime": 30.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 0,
+            "targetTime": 30.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 30.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 30.666667938232423,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 30.833332061767579,
+            "duration": 0.16145899891853333
+        },
+        {
+            "noteType": 1,
+            "targetTime": 31.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 0,
+            "targetTime": 31.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 31.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 31.666667938232423,
+            "duration": 0.16145800054073335
+        },
+        {
+            "noteType": 0,
+            "targetTime": 31.833332061767579,
+            "duration": 0.16145899891853333
+        },
+        {
+            "noteType": 1,
+            "targetTime": 32.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 0,
+            "targetTime": 32.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 32.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.0,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.0,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.0625,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.125,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.1875,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.25,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.25,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.3125,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.375,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.4375,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.5,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.5,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.5625,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.625,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.6875,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.75,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.75,
+            "duration": 0.24479199945926667
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.8125,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.875,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 0,
+            "targetTime": 33.9375,
+            "duration": 0.05729199945926666
+        },
+        {
+            "noteType": 1,
+            "targetTime": 34.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 1,
+            "targetTime": 34.0,
+            "duration": 0.875
+        },
+        {
+            "noteType": 1,
+            "targetTime": 34.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 34.0,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 34.5,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 34.5,
+            "duration": 0.41666701436042788
+        },
+        {
+            "noteType": 1,
+            "targetTime": 35.0,
+            "duration": 2.375
+        },
+        {
+            "noteType": 1,
+            "targetTime": 35.0,
+            "duration": 2.375
+        }
+    ]
+}
